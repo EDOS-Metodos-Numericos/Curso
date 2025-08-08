@@ -1,1 +1,1 @@
-[Practica 1 Diagramas de flujo y Pseudocódigo](https://classroom.github.com/a/qJV3dE-0)
+[Practica 1  Sistema Masa-Resorte](https://classroom.github.com/a/i6l74nLa)
