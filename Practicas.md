@@ -3,3 +3,5 @@
 [Tarea 1 Existencia-Unicidad](https://classroom.github.com/a/FUJlrKCe)
 
 [Practica 2 Método de Euler Explicito](https://classroom.github.com/a/Y12c6aOg)
+
+[Practica 3 Lotka-Volterra](https://classroom.github.com/a/wicdLE1w)
