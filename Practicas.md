@@ -9,3 +9,7 @@
 [Practica 4 Reacción química](https://classroom.github.com/a/HoClaoub)
 
 [Practica 5 Sistemas Conservativos](https://classroom.github.com/a/vgC_wmLG)
+
+[Practica 6 Gráfica Cíclica](https://classroom.github.com/a/myPLpza2)
+
+[Practica 7 Péndulo Doble](https://classroom.github.com/a/38x1rg0j)
