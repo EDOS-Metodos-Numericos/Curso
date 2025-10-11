@@ -13,3 +13,7 @@
 [Practica 6 Gráfica Cíclica](https://classroom.github.com/a/myPLpza2)
 
 [Practica 7 Péndulo Doble](https://classroom.github.com/a/38x1rg0j)
+
+[Practica 8 Apoptosis](https://classroom.github.com/a/L52ANJDT)
+
+[Practica 9 Caos en Modelos de Cancer](https://classroom.github.com/a/v0jBICx7)
