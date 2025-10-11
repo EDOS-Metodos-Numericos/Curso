@@ -83,8 +83,8 @@ def dobles_pendulos_interactivo():
 
     L1 = FloatSlider(value=1.0, min=0.3, max=3.0, description='l₁', **slider_kw)
     L2 = FloatSlider(value=1.0, min=0.3, max=3.0, description='l₂', **slider_kw)
-    m1 = FloatSlider(value=1.0, min=0.1, max=5.0, description='m₁', **slider_kw)
-    m2 = FloatSlider(value=1.0, min=0.1, max=5.0, description='m₂', **slider_kw)
+    m1 = FloatSlider(value=3.0, min=0.1, max=5.0, description='m₁', **slider_kw)
+    m2 = FloatSlider(value=2.0, min=0.1, max=5.0, description='m₂', **slider_kw)
     g  = FloatSlider(value=9.81, min=1.0, max=20.0, description='g',  **slider_kw)
 
     # ϵ para péndulo B 
@@ -102,17 +102,17 @@ def dobles_pendulos_interactivo():
     jslink((play, 'value'), (t, 'value'))
 
     # Condiciones iniciales A 
-    th1A = FloatSlider(value=+0.9, min=-math.pi, max=math.pi, description='θ₁A', **slider_kw)
-    th2A = FloatSlider(value=-0.9, min=-math.pi, max=math.pi, description='θ₂A', **slider_kw)
-    w1A  = FloatSlider(value=0.0,  min=-20.0, max=20.0,  description='ω₁A',  **slider_kw)
-    w2A  = FloatSlider(value=0.0,  min=-20.0, max=20.0,  description='ω₂A',  **slider_kw)
+    th1A = FloatSlider(value=0.9, min=-math.pi, max=math.pi, description='θ₁A', **slider_kw)
+    th2A = FloatSlider(value=1.9, min=-math.pi, max=math.pi, description='θ₂A', **slider_kw)
+    w1A  = FloatSlider(value=1.6,  min=-20.0, max=20.0,  description='ω₁A',  **slider_kw)
+    w2A  = FloatSlider(value=-1.4,  min=-20.0, max=20.0,  description='ω₂A',  **slider_kw)
 
     # Condiciones iniciales B + epsilon
     mostrar_B = Checkbox(value=True, description='Mostrar péndulo B')
-    th1B = FloatSlider(value=th1A.value + 1e-3, min=-math.pi, max=math.pi, description='θ₁B', **slider_kw)
-    th2B = FloatSlider(value=th2A.value,       min=-math.pi, max=math.pi, description='θ₂B', **slider_kw)
-    w1B  = FloatSlider(value=0.0,  min=-20.0, max=20.0, description='ω₁B', **slider_kw)
-    w2B  = FloatSlider(value=0.0,  min=-20.0, max=20.0, description='ω₂B', **slider_kw)
+    th1B = FloatSlider(value=th1A.value + 1e-2, min=-math.pi, max=math.pi, description='θ₁B', **slider_kw)
+    th2B = FloatSlider(value=th2A.value+ 1e-2,       min=-math.pi, max=math.pi, description='θ₂B', **slider_kw)
+    w1B  = FloatSlider(value=w1A.value,  min=-20.0, max=20.0, description='ω₁B', **slider_kw)
+    w2B  = FloatSlider(value=w2A.value,  min=-20.0, max=20.0, description='ω₂B', **slider_kw)
 
     eps_th1B = FloatText(value=0.0, description='ϵ_θ₁B', layout=Layout(width='170px'))
     eps_th2B = FloatText(value=0.0, description='ϵ_θ₂B', layout=Layout(width='170px'))
