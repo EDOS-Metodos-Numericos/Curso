@@ -17,3 +17,5 @@
 [Practica 8 Apoptosis](https://classroom.github.com/a/L52ANJDT)
 
 [Practica 9 Caos en Modelos de Cancer](https://classroom.github.com/a/v0jBICx7)
+
+[Practica 10 Modelos de Infecciones](https://classroom.github.com/a/WgVdD_K6)
