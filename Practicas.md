@@ -21,3 +21,5 @@
 [Practica 10 Modelos de Infecciones](https://classroom.github.com/a/WgVdD_K6)
 
 [Practica 11 Runge-Kutta Implícitos](https://classroom.github.com/a/ozaAec25)
+
+[Practica 12 Diferencias Finitas](https://classroom.github.com/a/KAwlvFLQ)
