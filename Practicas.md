@@ -23,3 +23,5 @@
 [Practica 11 Runge-Kutta Implícitos](https://classroom.github.com/a/ozaAec25)
 
 [Practica 12 Diferencias Finitas](https://classroom.github.com/a/KAwlvFLQ)
+
+[Practica 13 Ecuación de Difusión](https://classroom.github.com/a/upudTOpH)
